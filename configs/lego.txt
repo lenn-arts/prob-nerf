@@ -1,0 +1,30 @@
+expname = lego_b4_N20c25K16e100s0.1seed3
+basedir = ./logs
+datadir = ../data/nerf_synthetic/lego
+dataset_type = blender
+
+render_only = True
+render_test = True
+
+no_batching = False
+
+use_viewdirs = True
+white_bkgd = True
+lrate_decay = 500
+
+N_samples = 64
+N_importance = 128
+N_rand = 1024
+
+precrop_iters = 0
+precrop_frac = 0.5
+
+half_res = True
+i_img = 200
+i_weights = 2000
+i_video = 10000
+
+
+
+
+
